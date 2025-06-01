@@ -3,24 +3,10 @@ import { ShoppingCart, Search, Menu } from "lucide-react";
 
 const Navbar = () => {
     return (
-        <div className="w-full border-b pb-2">
-            <div className="bg-yellow-100 text-sm flex justify-between px-4 py-2">
-                <div className="bg-yellow-100 text-sm flex justify-between items-center px-4 py-2">
-                    {/* Left Side - Phone Number */}
-                    <div>
-                        <span>📞 +91 98765 43210</span>
-                    </div>
+        <div className="sticky top-0 z-50 w-full border-b ">
+           
 
-                    {/* Right Side - Store Locator & Contact */}
-                    <div className="flex space-x-4">
-                        <span>📍 Store Locator</span>
-                        <span>📧 Contact Us</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="flex items-center justify-between p-2 px-4 bg-white">
+            <div className=" flex items-center justify-between p-2 px-4 bg-white">
                 {/* Left - Logo and Menu */}
                 <div className="flex items-center space-x-3">
                     <Menu size={20} className="md:hidden cursor-pointer" />
